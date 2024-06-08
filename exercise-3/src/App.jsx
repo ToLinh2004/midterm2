@@ -9,8 +9,7 @@ function App() {
 
   /* You will need some function to handle the key pressed and button events */
   const handleOnClick = () => {
-    setSum(onA + onB);
-  
+    setSum(parseInt(onA) + parseInt(onB));
   };
   return (
     <main>
